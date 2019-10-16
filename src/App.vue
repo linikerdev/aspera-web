@@ -19,14 +19,14 @@ export default {
 
     ifSuccess({ dataTransfer }) {
       const transferSpec = {
-        paths: dataTransfer.files,
-        remote_host: "demo.asperasoft.com",
-        remote_user: "asperaweb",
-        remote_password: "demoaspera",
-        direction: "send",
-        target_rate_kbps: 500,
-        resume: "sparse_checksum",
-        destination_root: "Upload"
+        "paths": [],
+        "remote_host": "demo.asperasoft.com",
+        "remote_user": "aspera",
+        "remote_password": "demoaspera",
+        "direction": "send",
+        "target_rate_kbps" : 5000,
+        "resume" : "sparse_checksum",
+        "destination_root": "Upload"
       };
 
       var files = dataTransfer.files;
