@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.1.2",
+    "jquery": "^3.4.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-eslint": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
@@ -31,9 +31,7 @@
       "@vue/standard"
     ],
     "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
+    "parserOptions": {}
   },
   "postcss": {
     "plugins": {
